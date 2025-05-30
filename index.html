@@ -1,0 +1,628 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pengumuman Kelulusan SMP BCI School</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Roboto:wght@300;400;500;700&display=swap');
+        
+        body {
+            font-family: 'Roboto', sans-serif;
+            background-color: #f8f9fa;
+            background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 100 100'%3E%3Cg fill-rule='evenodd'%3E%3Cg fill='%23f0a203' fill-opacity='0.1'%3E%3Cpath opacity='.5' d='M96 95h4v1h-4v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15V0h1v15h9V0h1v15h9V0h1v15h9V0h1v15h9V0h1v15h9V0h1v15h9V0h1v15h9V0h1v15h9V0h1v15h4v1h-4v9h4v1h-4v9h4v1h-4v9h4v1h-4v9h4v1h-4v9h4v1h-4v9h4v1h-4v9h4v1h-4v9zm-1 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-9-10h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm9-10v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-9-10h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm9-10v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-9-10h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm9-10v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-9-10h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9z'/%3E%3Cpath d='M6 5V0H5v5H0v1h5v94h1V6h94V5H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+        }
+        
+        .title {
+            font-family: 'Playfair Display', serif;
+        }
+        
+        .gold-text {
+            color: #f0a203;
+        }
+        
+        .navy-bg {
+            background-color: #3c39e6;
+        }
+        
+        .gold-border {
+            border-color: #f0a203;
+        }
+        
+        .btn-login {
+            background: linear-gradient(135deg, #f0a203 0%, #f2d06b 100%);
+            transition: all 0.3s ease;
+        }
+        
+        .btn-login:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 10px 20px rgba(212, 175, 55, 0.3);
+        }
+        
+        .school-bg {
+            background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='200' height='100' viewBox='0 0 200 100'%3E%3Cpath fill='%233c39e6' d='M100 0 L200 100 L0 100 Z'/%3E%3C/svg%3E");
+            background-repeat: no-repeat;
+            background-position: bottom;
+            background-size: contain;
+        }
+        
+        .result-box {
+            transition: all 0.5s ease;
+        }
+        
+        .modal {
+            transition: opacity 0.3s ease;
+        }
+    </style>
+</head>
+<body>
+    <!-- Main Container -->
+    <div class="min-h-screen flex flex-col">
+        <!-- Header with School Logo -->
+        <header class="navy-bg py-4 px-6 shadow-md">
+            <div class="container mx-auto flex justify-between items-center">
+                <div class="flex items-center">
+                    <div class="mr-3">
+                        <img src="..\SMP (2).png" class="w-16 h-14" viewBox="0 0 64 64" fill="none">
+                        <!--
+                        <svg class="w-12 h-12" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M32 4L4 16L32 28L60 16L32 4Z" fill="#f0a203"/>
+                            <path d="M16 36V20L32 28V44L16 36Z" fill="#f0a203"/>
+                            <path d="M48 36V20L32 28V44L48 36Z" fill="#f0a203"/>
+                            <path d="M32 44L16 36L4 40L32 52L60 40L48 36L32 44Z" fill="#f0a203"/>
+                            <path d="M32 52V60M24 48V56M40 48V56" stroke="#f0a203" stroke-width="2"/>
+                        </svg>
+                        -->
+                    </div>
+                    <div>
+                        <h1 class="text-white text-lg md:text-xl font-bold">SMP BUDI CENDEKIA ISLAMIC SCHOOL</h1>
+                        <p class="text-gray-300 text-xs md:text-sm">Smart, Humble, be A Leader</p>
+                    </div>
+                </div>
+                <!--<div class="hidden md:block">
+                    <p class="text-white text-sm">Tahun Ajaran 2024/2025</p>
+                </div>
+            -->
+            </div>
+        </header>
+
+        <!-- Main Content -->
+        <main class="flex-grow">
+            <!-- Landing Page -->
+            <div id="landing-page" class="container mx-auto px-4 py-8">
+                <!-- Main Title -->
+                <div class="text-center mb-8">
+                    <h2 class="title text-2xl md:text-4xl font-bold navy-bg text-white py-4 px-6 rounded-lg shadow-lg inline-block">
+                        Pengumuman Kelulusan<br>
+                        <span class="gold-text">SMP BUDI CENDEKIA ISLAMIC SCHOOL</span><br>
+                        Tahun Ajaran 2024/2025
+                    </h2>
+                </div>
+                
+                <!-- School Illustration -->
+                <div class="flex justify-center mb-8">
+                    <div class="relative w-full max-w-3xl">
+                        <svg class="w-full h-auto" viewBox="0 0 800 300" xmlns="http://www.w3.org/2000/svg">
+                            <!-- School Building -->
+                            <rect x="200" y="100" width="400" height="200" fill="#3c39e6"/>
+                            <rect x="250" y="50" width="300" height="50" fill="#3c39e6"/>
+                            <polygon points="200,100 250,50 550,50 600,100" fill="#3c39e6"/>
+                            
+                            <!-- Windows -->
+                            <rect x="230" y="120" width="40" height="60" fill="#f0a203" opacity="0.8"/>
+                            <rect x="300" y="120" width="40" height="60" fill="#f0a203" opacity="0.8"/>
+                            <rect x="370" y="120" width="40" height="60" fill="#f0a203" opacity="0.8"/>
+                            <rect x="440" y="120" width="40" height="60" fill="#f0a203" opacity="0.8"/>
+                            <rect x="510" y="120" width="40" height="60" fill="#f0a203" opacity="0.8"/>
+                            
+                            <rect x="230" y="200" width="40" height="60" fill="#f0a203" opacity="0.8"/>
+                            <rect x="300" y="200" width="40" height="60" fill="#f0a203" opacity="0.8"/>
+                            <rect x="440" y="200" width="40" height="60" fill="#f0a203" opacity="0.8"/>
+                            <rect x="510" y="200" width="40" height="60" fill="#f0a203" opacity="0.8"/>
+                            
+                            <!-- Door -->
+                            <rect x="370" y="200" width="40" height="100" fill="#f0a203"/>
+                            
+                            <!-- Flag -->
+                            <rect x="150" y="80" width="5" height="220" fill="#555"/>
+                            <rect x="155" y="80" width="40" height="30" fill="#FF0000"/>
+                            <rect x="155" y="110" width="40" height="30" fill="#FFFFFF"/>
+                            
+                            <!-- Students -->
+                            <circle cx="280" cy="280" r="15" fill="#3c39e6"/>
+                            <rect x="275" y="295" width="10" height="20" fill="#3c39e6"/>
+                            <circle cx="320" cy="280" r="15" fill="#3c39e6"/>
+                            <rect x="315" y="295" width="10" height="20" fill="#3c39e6"/>
+                            <circle cx="360" cy="280" r="15" fill="#3c39e6"/>
+                            <rect x="355" y="295" width="10" height="20" fill="#3c39e6"/>
+                            <circle cx="400" cy="280" r="15" fill="#3c39e6"/>
+                            <rect x="395" y="295" width="10" height="20" fill="#3c39e6"/>
+                            <circle cx="440" cy="280" r="15" fill="#3c39e6"/>
+                            <rect x="435" y="295" width="10" height="20" fill="#3c39e6"/>
+                            <circle cx="480" cy="280" r="15" fill="#3c39e6"/>
+                            <rect x="475" y="295" width="10" height="20" fill="#3c39e6"/>
+                            
+                            <!-- Graduation Caps -->
+                            <g opacity="0.8">
+                                <circle cx="650" cy="100" r="20" fill="#3c39e6"/>
+                                <rect x="630" y="100" width="40" height="5" fill="#3c39e6"/>
+                                <rect x="645" y="80" width="10" height="20" fill="#f0a203"/>
+                            </g>
+                            <g opacity="0.6">
+                                <circle cx="700" cy="150" r="20" fill="#3c39e6"/>
+                                <rect x="680" y="150" width="40" height="5" fill="#3c39e6"/>
+                                <rect x="695" y="130" width="10" height="20" fill="#f0a203"/>
+                            </g>
+                            <g opacity="0.4">
+                                <circle cx="650" cy="200" r="20" fill="#3c39e6"/>
+                                <rect x="630" y="200" width="40" height="5" fill="#3c39e6"/>
+                                <rect x="645" y="180" width="10" height="20" fill="#f0a203"/>
+                            </g>
+                        </svg>
+                    </div>
+                </div>
+                
+                <!-- Principal's Message -->
+                <div class="max-w-4xl mx-auto bg-white rounded-lg shadow-lg p-6 mb-8 border-l-4 border-r-4 gold-border">
+                    <div class="flex flex-col md:flex-row items-center mb-4">
+                        <div class="mb-4 md:mb-0 md:mr-6">
+                            <div class="w-30 h-30 rounded-full bg-gray-200 flex items-center justify-center navy-bg">
+                                <img src="..\KA BCI.png" class="w-25 h-25" viewBox="0 0 64 64" fill="none">
+                            </div>
+                            <!--
+                            <div class="w-24 h-24 rounded-full bg-gray-200 flex items-center justify-center navy-bg">
+                                <svg class="w-16 h-16" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <circle cx="32" cy="20" r="12" fill="#f0a203"/>
+                                    <path d="M32 32C18.7 32 8 42.7 8 56H56C56 42.7 45.3 32 32 32Z" fill="#f0a203"/>
+                                    <path d="M28 16C28 16 30 20 32 20C34 20 36 16 36 16" stroke="#3c39e6" stroke-width="2" stroke-linecap="round"/>
+                                    <path d="M24 14H28M36 14H40" stroke="#3c39e6" stroke-width="2" stroke-linecap="round"/>
+                                </svg>
+                            </div>
+                        -->
+                        </div>
+                        <div class="text-center md:text-left">
+                            <h3 class="title text-xl font-bold mb-2">Sambutan Kepala Sekolah</h3>
+                            <p class="text-gray-700 italic mb-4">Assalamu'alaikum Warahmatullahi Wabarakatuh.</p>
+                            <p class="text-gray-700 mb-4">
+                                Selamat dan sukses kami ucapkan kepada seluruh murid SMP Budi Cendekia Islamic School yang telah berhasil menyelesaikan pendidikan selama 3 tahun. Kami bangga atas perjuangan, kedisiplinan, dan semangat kalian dalam menuntut ilmu. Semoga ilmu yang didapat menjadi bekal untuk meraih masa depan yang lebih gemilang.
+                            </p>
+                            <p class="text-gray-700 mb-4">Wassalamu'alaikum Warahmatullahi Wabarakatuh.</p>
+                            <div class="text-right">
+                                <p class="text-gray-700 mb-2">Depok, 02 Juni 2025</p>
+                                <p class="font-semibold">Kepala SMP BCI,</p>
+                                <p class="font-bold">Tri Wahyuni, M.Pd.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Login Button -->
+                <div class="text-center mb-12">
+                    <button id="login-btn" class="btn-login text-navy-800 font-bold py-4 px-8 rounded-lg text-lg shadow-lg transform transition hover:scale-105">
+                        LIHAT STATUS KELULUSAN
+                    </button>
+                </div>
+            </div>
+            
+            <!-- Login Modal -->
+            <div id="login-modal" class="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50 hidden modal">
+                <div class="bg-white rounded-lg shadow-2xl p-8 max-w-md w-full mx-4 transform transition-all">
+                    <div class="flex justify-between items-center mb-6">
+                        <h3 class="text-l font-bold title">Masukkan Nama dan Password Ananda</h3>
+                        <button id="close-login" class="text-gray-500 hover:text-gray-700">
+                            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path>
+                            </svg>
+                        </button>
+                    </div>
+                    <form id="login-form" class="space-y-4">
+                        <div>
+                            <label for="name" class="block text-sm font-medium text-gray-700 mb-1">Nama Lengkap</label>
+                            <input type="text" id="name" class="w-full px-4 py-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500" required>
+                        </div>
+                        <div>
+                            <label for="password" class="block text-sm font-medium text-gray-700 mb-1">Password</label>
+                            <input type="password" id="password" class="w-full px-4 py-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500" required>
+                        </div>
+                        <div class="pt-2">
+                            <button type="submit" class="w-full btn-login text-navy-800 font-bold py-3 px-4 rounded-md">
+                                CEK STATUS
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            
+            <!-- NISN Input Page -->
+            <!--
+            <div id="nisn-page" class="container mx-auto px-4 py-8 hidden">
+                <div class="max-w-2xl mx-auto bg-white rounded-lg shadow-lg p-8 border gold-border">
+                    <h2 class="title text-2xl font-bold mb-6 text-center">Cek Status Kelulusan</h2>
+                    <div class="mb-6">
+                        <p class="text-gray-700 mb-4 text-center">Masukkan NISN Anda untuk melihat hasil kelulusan</p>
+                    </div>
+                    <form id="nisn-form" class="space-y-6">
+                        <div>
+                            <label for="nisn" class="block text-sm font-medium text-gray-700 mb-1">NISN</label>
+                            <input type="text" id="nisn" class="w-full px-4 py-3 border rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 text-lg" required>
+                        </div>
+                        <div class="pt-2">
+                            <button type="submit" class="w-full btn-login text-navy-800 font-bold py-3 px-4 rounded-md text-lg">
+                                CEK KELULUSAN
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            -->
+            
+            <!-- Result Page -->
+            <div id="result-page" class="container mx-auto px-4 py-8 hidden">
+                <div class="max-w-2xl mx-auto">
+                    <div id="result-box" class="bg-white rounded-lg shadow-lg p-8 border-4 result-box">
+                        <div class="text-center mb-6">
+                            <h2 class="title text-2xl font-bold mb-2">Hasil Pengumuman Kelulusan</h2>
+                            <p class="text-gray-600">SMP BUDI CENDEKIA ISLAMIC SCHOOL</p>
+                             <p class="text-gray-600">Tahun Ajaran 2024/2025</p>
+                        </div>
+                        <div class="mb-6 pb-6 border-b">
+                            <div class="flex justify-between">
+                                <span class="font-medium">Nama Lengkap:</span>
+                                <span id="student-name" class="font-bold"></span>
+                            </div>
+                            <div class="flex justify-between">
+                                <span class="font-medium">No. Induk/NISN:</span>
+                                <span id="student-nisn" class="font-bold"></span>
+                            </div>
+                            <div class="flex justify-between">
+                                <span class="font-medium">Kelas:</span>
+                                <span id="student-kelas" class="font-bold"></span>
+                            </div>
+                            <div class="flex justify-between">
+                                <span class="font-medium">Tanggal Lahir:</span>
+                                <span id="student-dob" class="font-bold"></span>
+                            </div>
+                        </div>
+                        
+                        <div class="text-center mb-6">
+                            <div class="text-xl font-medium mb-2">Selamat, Ananda dinyatakan</div>
+                            <div id="graduation-status" class="text-3xl font-bold py-3 px-6 rounded-lg inline-block"></div>
+                        </div>
+
+                        <div class="text-center mb-6">
+                            <div class="text-xl font-medium mb-2">Perolehan Rata-Rata Nilai SKL</div>
+                            <div id="student-nilai" class="text-3xl font-bold py-3 px-6 rounded-lg inline-block"></div>
+                        </div>
+                        
+                        <div id="success-note" class="bg-green-50 border-l-4 border-green-500 p-4 mb-6 hidden">
+                            <p class="text-green-800">
+                                Bagi yang dinyatakan LULUS, silakan mengambil Surat Keterangan Lulus (SKL) dan Surat Kelakuan Baik kepada wali kelas masing-masing.
+                            </p>
+                        </div>
+                        
+                        <div class="text-center">
+                            <button id="back-btn" class="navy-bg text-white font-bold py-2 px-6 rounded-lg hover:bg-opacity-90 transition">
+                                Kembali
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <!-- Footer -->
+        <footer class="navy-bg text-white py-6 mt-auto">
+            <div class="container mx-auto px-4">
+                <div class="flex flex-col md:flex-row justify-between items-center">
+                    <div class="flex items-center mb-4 md:mb-0">
+                        <div class="mr-3">
+                            <img src="..\SMP (2).png" class="w-10 h-10" viewBox="0 0 64 64" fill="none">
+                            <!--<img src="https://freeimghost.net/i/SMP-%282%29.xwKgQh" width="30" height="30" alt="BCI Logo">-->
+                            <!--
+                            <svg class="w-10 h-10" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M32 4L4 16L32 28L60 16L32 4Z" fill="#f0a203"/>
+                                <path d="M16 36V20L32 28V44L16 36Z" fill="#f0a203"/>
+                                <path d="M48 36V20L32 28V44L48 36Z" fill="#f0a203"/>
+                                <path d="M32 44L16 36L4 40L32 52L60 40L48 36L32 44Z" fill="#f0a203"/>
+                                <path d="M32 52V60M24 48V56M40 48V56" stroke="#f0a203" stroke-width="2"/>
+                            </svg>
+                            -->
+                        </div>
+                        <div>
+                            <h3 class="font-bold text-lg">SMP BUDI CENDEKIA ISLAMIC SCHOOL</h3>
+                            <p class="text-sm text-gray-300">Jl. Boulevard, Kalimulya, Grand Depok City</p>
+                        </div>
+                    </div>
+                    <div class="text-center md:text-right">
+                        <div class="flex items-center justify-center md:justify-end mb-2">
+                            <div class="mr-4 flex items-center">
+                                <i class="fas fa-envelope mr-2 gold-text"></i>
+                                <span>informasi.smp@bcischool.sch.id</span>
+                            </div>
+                            <div class="flex items-center">
+                                <i class="fas fa-phone mr-4 gold-text"></i>
+                                <span>0877-7444-8811</span>
+                            </div>
+                        </div>
+                        <p class="text-sm text-gray-300">© 2025 SMP Budi Cendekia Islamic School. Hak Cipta Dilindungi.</p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <script>
+        // Sample student data
+        const students = [
+            { password: "9andalusia-1", name: "Abyant Nadhif Alfarabi", kelas: "9 Andalusia", nisn: "22237003/0107400807", dob: "20 Januari 2010", nilai: "90.34", status: "LULUS" },
+            { password: "9andalusia-2", name: "Al Khairan Astro Putra Latief", kelas: "9 Andalusia", nisn: "22237008/0101373733", dob: "10 Mei 2010", nilai: "90.09", status: "LULUS" },
+            { password: "9andalusia-3", name: "Amira Syasya Nabila Pelu", kelas: "9 Andalusia", nisn: "22237016/0107880515", dob: "3 April 2010", nilai: "93.14", status: "LULUS" },
+            { password: "9andalusia-4", name: "Antares Wisanggeni Rahmawan", kelas: "9 Andalusia", nisn: "22237021/0103236904", dob: "12 Juli 2010", nilai: "91.53", status: "LULUS" },
+            { password: "9andalusia-5", name: "Aqilah Naeva Adelina", kelas: "9 Andalusia", nisn: "22237023/0109427187", dob: "10 Mei 2010", nilai: "94.42", status: "LULUS" },
+            { password: "9andalusia-6", name: "Azharya Kayzan Alfarezi", kelas: "9 Andalusia", nisn: "22237032/0108701749", dob: "5 Mei 2010", nilai: "92.23", status: "LULUS" },
+            { password: "9andalusia-7", name: "Belva Evelyna Jasmine", kelas: "9 Andalusia", nisn: "22237034/0106378696", dob: "10 Oktober 2010", nilai: "93.79", status: "LULUS" },
+            { password: "9andalusia-8", name: "Cinta Tany Valencia Sugiharto", kelas: "9 Andalusia", nisn: "22237037/0102731280", dob: "24 Februari 2010", nilai: "92.30", status: "LULUS" },
+            { password: "9andalusia-9", name: "Deyantri Permata Hasan", kelas: "9 Andalusia", nisn: "22237043/0107484197", dob: "10 Januari 2010", nilai: "92.53", status: "LULUS" },
+            { password: "9andalusia-10", name: "Farrel Zayyaan Adelvio", kelas: "9 Andalusia", nisn: "22237049/0093835360", dob: "12 Desember 2009", nilai: "93.02", status: "LULUS" },
+            { password: "9andalusia-11", name: "Fathan Alfiyansyah", kelas: "9 Andalusia", nisn: "22237050/0097376270", dob: "31 Juli 2009", nilai: "92.70", status: "LULUS" },
+            { password: "9andalusia-12", name: "Kenzie Athaya Aditama", kelas: "9 Andalusia", nisn: "22237058/0109681824", dob: "30 Agustus 2010", nilai: "94.04", status: "LULUS" },
+            { password: "9andalusia-13", name: "Kynna Quaneisha Ruela", kelas: "9 Andalusia", nisn: "22237062/0102094840", dob: "2 April 2010", nilai: "90.56", status: "LULUS" },
+            { password: "9andalusia-14", name: "Lathifa Rania Khairunnisa", kelas: "9 Andalusia", nisn: "22237063/0105785251", dob: "22 Mei 2010", nilai: "94.93", status: "LULUS" },
+            { password: "9andalusia-15", name: "Mazaya Syakira Amanii", kelas: "9 Andalusia", nisn: "22237068/0105969524", dob: "3 Juli 2010", nilai: "93.37", status: "LULUS" },
+            { password: "9andalusia-16", name: "Nasywaa Shakila Humaira", kelas: "9 Andalusia", nisn: "22237081/0091976112", dob: "12 Desember 2009", nilai: "91.29", status: "LULUS" },
+            { password: "9andalusia-17", name: "Puti Ayesha Hadi Pratama", kelas: "9 Andalusia", nisn: "22237086/0105215699", dob: "25 Maret 2010", nilai: "90.10", status: "LULUS" },
+            { password: "9cordova-1", name: "Abdi Fikri Al Ikram", kelas: "9 Cordova", nisn: "22237002/0109991079", dob: "23 Mei 2010", nilai: "85.85", status: "LULUS" },
+            { password: "9cordova-2", name: "Akula Putra Ragazi Ontoseno", kelas: "9 Cordova", nisn: "22237007/0108991076", dob: "17 Oktober 2010", nilai: "80.10", status: "LULUS" },
+            { password: "9cordova-3", name: "Aldio Farel Iskandar", kelas: "9 Cordova", nisn: "22237009/0098578392", dob: "29 September 2009", nilai: "83.65", status: "LULUS" },
+            { password: "9cordova-4", name: "Allena Gladysha Binar", kelas: "9 Cordova", nisn: "23248164/0104076632", dob: "5 Juni 2010", nilai: "93.92", status: "LULUS" },
+            { password: "9cordova-5", name: "Amira Nur Safitri", kelas: "9 Cordova", nisn: "23248163/0091548662", dob: "9 Oktober 2009", nilai: "86.02", status: "LULUS" },
+            { password: "9cordova-6", name: "Andi Siti Nuril Nur Aeny Achmad Yusuf", kelas: "9 Cordova", nisn: "22237118/3098545600", dob: "14 Maret 2009", nilai: "84.84", status: "LULUS" },
+            { password: "9cordova-7", name: "Anindya Zahra Priyatno", kelas: "9 Cordova", nisn: "22237017/0109741469", dob: "5 Januari 2010", nilai: "88.21", status: "LULUS" },
+            { password: "9cordova-8", name: "Annisa Alifia Indri", kelas: "9 Cordova", nisn: "22237019/0106814918", dob: "11 Januari 2010", nilai: "93.76", status: "LULUS" },
+            { password: "9cordova-9", name: "Arista Afiza Nareswari", kelas: "9 Cordova", nisn: "22237024/0105648759", dob: "14 Agustus 2010", nilai: "93.40", status: "LULUS" },
+            { password: "9cordova-10", name: "Ayesha Afiqah Rahmaqueen", kelas: "9 Cordova", nisn: "22237031/0107652499", dob: "27 September 2010", nilai: "87.89", status: "LULUS" },
+            { password: "9cordova-11", name: "Aziandra Zhafran Saputra", kelas: "9 Cordova", nisn: "22237033/0102401155", dob: "26 Juli 2010", nilai: "86.81", status: "LULUS" },
+            { password: "9cordova-12", name: "Damaraska Qayzahlan Akbar", kelas: "9 Cordova", nisn: "22237039/0107476375", dob: "17 Juni 2010", nilai: "84.51", status: "LULUS" },
+            { password: "9cordova-13", name: "Hayek Ahnaf Al Karim", kelas: "9 Cordova", nisn: "22237056/0105909769", dob: "10 Oktober 2010", nilai: "82.63", status: "LULUS" },
+            { password: "9cordova-14", name: "Keyza Ayska Fakhira Qaireen", kelas: "9 Cordova", nisn: "22237059/0109501853", dob: "1 Agustus 2010", nilai: "86.30", status: "LULUS" },
+            { password: "9cordova-15", name: "Levana Zafira", kelas: "9 Cordova", nisn: "22237064/0106522448", dob: "8 Mei 2010", nilai: "92.51", status: "LULUS" },
+            { password: "9cordova-16", name: "Marvello Davinsky Akbar", kelas: "9 Cordova", nisn: "22237067/0091947684", dob: "17 September 2009", nilai: "86.49", status: "LULUS" },
+            { password: "9cordova-17", name: "Mohamad Azriel Aidan Permana", kelas: "9 Cordova", nisn: "22237070/0108557006", dob: "28 Februari 2010", nilai: "90.06", status: "LULUS" },
+            { password: "9cordova-18", name: "Muhammad Farhan Setyawan", kelas: "9 Cordova", nisn: "22237073/0094002194", dob: "12 Desember 2009", nilai: "89.78", status: "LULUS" },
+            { password: "9cordova-19", name: "Muhammad Rafid Firdaus", kelas: "9 Cordova", nisn: "22237076/0108401084", dob: "16 April 2010", nilai: "90.15", status: "LULUS" },
+            { password: "9cordova-20", name: "Muhammad Umar Hafidz", kelas: "9 Cordova", nisn: "23248005/0102226410", dob: "31 Maret 2010", nilai: "87.36", status: "LULUS" },
+            { password: "9cordova-21", name: "Namira Kenshi Irawan", kelas: "9 Cordova", nisn: "23248167/0103998107", dob: "8 Januari 2010", nilai: "91.97", status: "LULUS" },
+            { password: "9cordova-22", name: "Nikeisha Farah Afiya", kelas: "9 Cordova", nisn: "22237082/0108123696", dob: "18 April 2010", nilai: "87.97", status: "LULUS" },
+            { password: "9cordova-23", name: "Nuurin Hymma Ibrohim", kelas: "9 Cordova", nisn: "22237085/0092132560", dob: "30 September 2009", nilai: "88.63", status: "LULUS" },
+            { password: "9cordova-24", name: "Saffaraz Nevan Dimas Fabiano", kelas: "9 Cordova", nisn: "22237096/0101137808", dob: "21 Agustus 2010", nilai: "82.59", status: "LULUS" },
+            { password: "9cordova-25", name: "Saija Sanjung", kelas: "9 Cordova", nisn: "22237097/0108928253", dob: "10 November 2010", nilai: "90.87", status: "LULUS" },
+            { password: "9cordova-26", name: "Shofi Salsabila Syarifuddin Putri", kelas: "9 Cordova", nisn: "22237100/0098553062", dob: "17 Oktober 2009", nilai: "87.48", status: "LULUS" },
+            { password: "9cordova-27", name: "Vittorio Rafi Siradj", kelas: "9 Cordova", nisn: "22237105/0103344531", dob: "16 Juli 2010", nilai: "87.69", status: "LULUS" },
+            { password: "9cordova-28", name: "Yatha Hafizhah", kelas: "9 Cordova", nisn: "22237107/0108600031", dob: "12 Maret 2010", nilai: "91.35", status: "LULUS" },
+            { password: "9cordova-29", name: "Zia Erina Callista", kelas: "9 Cordova", nisn: "22237112/0107274873", dob: "12 Mei 2010", nilai: "87.79", status: "LULUS" },
+            { password: "9granada-1", name: "Ahmad Fadhil Al Ghazali", kelas: "9 Granada", nisn: "22237006/0091176760", dob: "19 November 2009", nilai: "90.49", status: "LULUS" },
+            { password: "9granada-2", name: "Alya Maharani", kelas: "9 Granada", nisn: "22237011/0108285077", dob: "22 Mei 2010", nilai: "86.62", status: "LULUS" },
+            { password: "9granada-3", name: "Aljura Sofia Ramadhan", kelas: "9 Granada", nisn: "22237013/3101637334", dob: "23 Mei 2010", nilai: "85.91", status: "LULUS" },
+            { password: "9granada-4", name: "Annisa Najma Fadhilla", kelas: "9 Granada", nisn: "22237020/0096716231", dob: "24 November 2009", nilai: "90.36", status: "LULUS" },
+            { password: "9granada-5", name: "Aqiela Fikri Elhadi", kelas: "9 Granada", nisn: "22237022/0093182185", dob: "24 November 2009", nilai: "89.75", status: "LULUS" },
+            { password: "9granada-6", name: "Ariq Adinata Malik", kelas: "9 Granada", nisn: "23248004/0102479427", dob: "04 Februari 2010", nilai: "86.97", status: "LULUS" },
+            { password: "9granada-7", name: "Ashila Nazhera Adzra", kelas: "9 Granada", nisn: "22237027/0107945858", dob: "13 Juni 2010", nilai: "87.86", status: "LULUS" },
+            { password: "9granada-8", name: "Athaya Nadine Raisya", kelas: "9 Granada", nisn: "22237029/0104333850", dob: "27 Februari 2010", nilai: "91.30", status: "LULUS" },
+            { password: "9granada-9", name: "Audy Rizky Wiranti", kelas: "9 Granada", nisn: "22237030/0108529603", dob: "26 November 2010", nilai: "85.07", status: "LULUS" },
+            { password: "9granada-10", name: "Cut Syakiera Allandra", kelas: "9 Granada", nisn: "22237038/0105494127", dob: "14 April 2010", nilai: "85.15", status: "LULUS" },
+            { password: "9granada-11", name: "Danendra Shahnawaz Dhaneswara", kelas: "9 Granada", nisn: "22237040/0103682448", dob: "02 April 2010", nilai: "88.82", status: "LULUS" },
+            { password: "9granada-12", name: "Dillion Omar", kelas: "9 Granada", nisn: "22237044/0106539606", dob: "01 Juni 2010", nilai: "86.60", status: "LULUS" },
+            { password: "9granada-13", name: "Elyasa Hafiz Al Huda", kelas: "9 Granada", nisn: "23248162/0107943266", dob: "3 Oktober 2010", nilai: "88.22", status: "LULUS" },
+            { password: "9granada-14", name: "Fawwaz Ahsan Hakim", kelas: "9 Granada", nisn: "22237053/0108110654", dob: "04 Oktober 2010", nilai: "85.65", status: "LULUS" },
+            { password: "9granada-15", name: "Muhammad Khairil Ikhwan", kelas: "9 Granada", nisn: "22237075/0109203751", dob: "03 Maret 2010", nilai: "89.41", status: "LULUS" },
+            { password: "9granada-16", name: "Muhammad Xavier Al Qiera", kelas: "9 Granada", nisn: "22237078/3109446721", dob: "22 Mei 2010", nilai: "86.98", status: "LULUS" },
+            { password: "9granada-17", name: "Nafisha Perlita Wachyudi", kelas: "9 Granada", nisn: "22237079/0091951041", dob: "05 November 2009", nilai: "88.93", status: "LULUS" },
+            { password: "9granada-18", name: "Naila Sasikirana", kelas: "9 Granada", nisn: "22237080/0108434769", dob: "05 Maret 2010", nilai: "93.46", status: "LULUS" },
+            { password: "9granada-19", name: "Nufail Muksen Fourier Saputra", kelas: "9 Granada", nisn: "22237084/0104518151", dob: "05 Mei 2010", nilai: "86.20", status: "LULUS" },
+            { password: "9granada-20", name: "Rahma Kamila", kelas: "9 Granada", nisn: "22237090/0099541319", dob: "13 Desember 2009", nilai: "88.86", status: "LULUS" },
+            { password: "9granada-21", name: "Rais Alman Ramadhan", kelas: "9 Granada", nisn: "22237117/0102628852", dob: "07 September 2010", nilai: "81.93", status: "LULUS" },
+            { password: "9granada-22", name: "Rayyan Cyril Aqilah", kelas: "9 Granada", nisn: "22237091/0102528244", dob: "23 Juli 2010", nilai: "86.03", status: "LULUS" },
+            { password: "9granada-23", name: "Razan Ahnaf Tsaqif", kelas: "9 Granada", nisn: "22237093/0096715861", dob: "20 November 2009", nilai: "86.65", status: "LULUS" },
+            { password: "9granada-24", name: "Syakyla Nahya Amira", kelas: "9 Granada", nisn: "22237101/0105785329", dob: "02 Maret 2010", nilai: "91.35", status: "LULUS" },
+            { password: "9granada-25", name: "Talita Rahayu Wulandari", kelas: "9 Granada", nisn: "22237102/0104571942", dob: "22 Januari 2010", nilai: "88.60", status: "LULUS" },
+            { password: "9granada-26", name: "Velona Githa Moira", kelas: "9 Granada", nisn: "22237103/0103338829", dob: "4 Juni 2010", nilai: "88.39", status: "LULUS" },
+            { password: "9granada-27", name: "Wina Artha Mirandha", kelas: "9 Granada", nisn: "22237106/3110476272", dob: "30 April 2011", nilai: "90.15", status: "LULUS" },
+            { password: "9granada-28", name: "Zhafran Alif Arrosyad", kelas: "9 Granada", nisn: "22237111/0101251136", dob: "16 Juli 2010", nilai: "89.87", status: "LULUS" },
+            { password: "9istanbul-1", name: "Afaita Rahmatilana", kelas: "9 Istanbul", nisn: "22237004/0104550640", dob: "03 Februari 2010", nilai: "86.26", status: "LULUS" },
+            { password: "9istanbul-2", name: "Alena Faissya Zhafira", kelas: "9 Istanbul", nisn: "23248003/0106654027", dob: "14 Juli 2010", nilai: "91.61", status: "LULUS" },
+            { password: "9istanbul-3", name: "Almira Naifah Agata", kelas: "9 Istanbul", nisn: "22237010/0103371919", dob: "08 April 2010", nilai: "89.60", status: "LULUS" },
+            { password: "9istanbul-4", name: "Alyssa Nabila Basuki", kelas: "9 Istanbul", nisn: "22237012/0097346045", dob: "18 Agustus 2009", nilai: "88.63", status: "LULUS" },
+            { password: "9istanbul-5", name: "Amira Rayna Zahra", kelas: "9 Istanbul", nisn: "22237015/0104420125", dob: "07 Februari 2010", nilai: "92.76", status: "LULUS" },
+            { password: "9istanbul-6", name: "Anindytha Maydina Haryadi", kelas: "9 Istanbul", nisn: "22237018/0102477901", dob: "25 Mei 2010", nilai: "91.05", status: "LULUS" },
+            { password: "9istanbul-7", name: "Arsyad Syaikhan Yanerlie", kelas: "9 Istanbul", nisn: "22237026/0104611399", dob: "22 Maret 2010", nilai: "87.48", status: "LULUS" },
+            { password: "9istanbul-8", name: "Asyila Perlita Wachyudi", kelas: "9 Istanbul", nisn: "22237028/0099979965", dob: "05 November 2009", nilai: "88.28", status: "LULUS" },
+            { password: "9istanbul-9", name: "Callysta Aurelia Arinda", kelas: "9 Istanbul", nisn: "22237035/0109933771", dob: "27 September 2010", nilai: "90.68", status: "LULUS" },
+            { password: "9istanbul-10", name: "Davina Julia Nugroho", kelas: "9 Istanbul", nisn: "22237041/0101512037", dob: "05 Juli 2010", nilai: "86.49", status: "LULUS" },
+            { password: "9istanbul-11", name: "Diarra Shezarissa Ilyas", kelas: "9 Istanbul", nisn: "22237119/0093373670", dob: "09 September 2009", nilai: "92.86", status: "LULUS" },
+            { password: "9istanbul-12", name: "Fabrizio Khazim Gidansie", kelas: "9 Istanbul", nisn: "22237046/0102248795", dob: "12 Februari 2010", nilai: "88.27", status: "LULUS" },
+            { password: "9istanbul-13", name: "Fakhira Anastasya Rajwa", kelas: "9 Istanbul", nisn: "22237047/0109524284", dob: "05 Januari 2010", nilai: "87.76", status: "LULUS" },
+            { password: "9istanbul-14", name: "Fatih Muhammad Dzaki Nugroho", kelas: "9 Istanbul", nisn: "23248165/0109644832", dob: "31 Maret 2010", nilai: "90.66", status: "LULUS" },
+            { password: "9istanbul-15", name: "Fauzan Azima", kelas: "9 Istanbul", nisn: "22237052/0095287475", dob: "30 Januari 2009", nilai: "85.60", status: "LULUS" },
+            { password: "9istanbul-16", name: "Gendhis Citra Azizah", kelas: "9 Istanbul", nisn: "22237054/0104564173", dob: "22 Februari 2010", nilai: "88.03", status: "LULUS" },
+            { password: "9istanbul-17", name: "Joe Malvaro Annas", kelas: "9 Istanbul", nisn: "24259192/0093428743", dob: "07 November 2009", nilai: "88.03", status: "LULUS" },
+            { password: "9istanbul-18", name: "Manggala Guardi Adli", kelas: "9 Istanbul", nisn: "23248161/0105604112", dob: "09 Juni 2010", nilai: "86.26", status: "LULUS" },
+            { password: "9istanbul-19", name: "Meino Rafif Pranowo", kelas: "9 Istanbul", nisn: "22237069/0092626601", dob: "24 September 2009", nilai: "90.30", status: "LULUS" },
+            { password: "9istanbul-20", name: "Muhammad Azriel Alfathan", kelas: "9 Istanbul", nisn: "22237071/3098695034", dob: "14 November 2009", nilai: "89.98", status: "LULUS" },
+            { password: "9istanbul-21", name: "Muhammad Ikbaar Hakeem Odinputera", kelas: "9 Istanbul", nisn: "22237074/0109768476", dob: "11 Juli 2010", nilai: "88.68", status: "LULUS" },
+            { password: "9istanbul-22", name: "Muhammad Mirza Azizi", kelas: "9 Istanbul", nisn: "22237114/0107386241", dob: "15 April 2010", nilai: "90.21", status: "LULUS" },
+            { password: "9istanbul-23", name: "Muhammad Rifqi Alfaro", kelas: "9 Istanbul", nisn: "22237077/0093431485", dob: "07 Juli 2009", nilai: "87.05", status: "LULUS" },
+            { password: "9istanbul-24", name: "Pramudya Amir Hakim Wibowo", kelas: "9 Istanbul", nisn: "23248006/3102684499", dob: "05 Juni 2010", nilai: "87.49", status: "LULUS" },
+            { password: "9istanbul-25", name: "Qeesya Qaseh Salsabila", kelas: "9 Istanbul", nisn: "22237087/0112803382", dob: "01 Januari 2011", nilai: "91.44", status: "LULUS" },
+            { password: "9istanbul-26", name: "Rabbaanee Handaru Pinandito", kelas: "9 Istanbul", nisn: "22237088/0104304545", dob: "02 Juni 2010", nilai: "87.55", status: "LULUS" },
+            { password: "9istanbul-27", name: "Rayyan Khalistho", kelas: "9 Istanbul", nisn: "22237092/0107684795", dob: "10 Agustus 2010", nilai: "84.28", status: "LULUS" },
+            { password: "9istanbul-28", name: "Rifqy Abid Afifullah", kelas: "9 Istanbul", nisn: "22237095/0095588993", dob: "03 November 2009", nilai: "85.79", status: "LULUS" },
+            { password: "9alexandria-1", name: "Azka Kynatha Charmaraiza", kelas: "9 Alexandria", nisn: "23247042/0101082190", dob: "14 Oktober 2010", nilai: "96.23", status: "LULUS" },
+            { password: "9alexandria-2", name: "Bagus Ramadhan Dwi Andika", kelas: "9 Alexandria", nisn: "23247044/0117767948", dob: "04 Agustus 2011", nilai: "96.17", status: "LULUS" },
+            { password: "9alexandria-3", name: "Charlotta Jasmeena Firmansyah", kelas: "9 Alexandria", nisn: "23247050/3109231946", dob: "14 Oktober 2010", nilai: "91.75", status: "LULUS" },
+            { password: "9alexandria-4", name: "Dimas Ganendra", kelas: "9 Alexandria", nisn: "23247057/0113446133", dob: "15 Januari 2011", nilai: "95.24", status: "LULUS" },
+            { password: "9alexandria-5", name: "Fadhil Ramadhan Darutama", kelas: "9 Alexandria", nisn: "23247062/0107665173", dob: "17 Agustus 2010", nilai: "92.40", status: "LULUS" },
+            { password: "9alexandria-6", name: "Haikal Ziqri Alano", kelas: "9 Alexandria", nisn: "23247073/0101844144", dob: "15 Desember 2010", nilai: "94.91", status: "LULUS" },
+            { password: "9alexandria-7", name: "Kanaya Nur Salsabila", kelas: "9 Alexandria", nisn: "23247081/3116239336", dob: "16 November 2011", nilai: "94.77", status: "LULUS" },
+            { password: "9alexandria-8", name: "Kandara Zenza Aathifah", kelas: "9 Alexandria", nisn: "23247082/0113124809", dob: "14 Februari 2011", nilai: "94.70", status: "LULUS" },
+            { password: "9alexandria-9", name: "Muhammad Albio Aldiano", kelas: "9 Alexandria", nisn: "23247101/0103367668", dob: "04 Oktober 2010", nilai: "92.64", status: "LULUS" },
+            { password: "9alexandria-10", name: "Muhammad Rayyan Zeredata", kelas: "9 Alexandria", nisn: "23247110/0116759849", dob: "03 Februari 2011", nilai: "92.05", status: "LULUS" },
+            { password: "9alexandria-11", name: "Raysabella Shafa Azra", kelas: "9 Alexandria", nisn: "23247140/0112222740", dob: "16 Mei 2011", nilai: "93.99", status: "LULUS" },
+            { password: "9alexandria-12", name: "Tara Quinsa Rafania", kelas: "9 Alexandria", nisn: "23247150/0111454742", dob: "27 Juni 2011", nilai: "93.09", status: "LULUS" },
+            { password: "9alexandria-13", name: "Zayyan Mikail Habibie", kelas: "9 Alexandria", nisn: "23247156/0101602708", dob: "13 November 2010", nilai: "92.63", status: "LULUS" },
+            { password: "9alexandria-14", name: "Zia Esma Rasyida Pajri", kelas: "9 Alexandria", nisn: "23247159/0114588251", dob: "08 Juli 2011", nilai: "95.41", status: "LULUS" }
+        ];
+        
+        // DOM Elements
+        const loginBtn = document.getElementById('login-btn');
+        const loginModal = document.getElementById('login-modal');
+        const closeLogin = document.getElementById('close-login');
+        const loginForm = document.getElementById('login-form');
+        //const nisnPage = document.getElementById('nisn-page');
+        const landingPage = document.getElementById('landing-page');
+        //const nisnForm = document.getElementById('nisn-form');
+        const resultPage = document.getElementById('result-page');
+        const studentName = document.getElementById('student-name');
+        const studentNisn = document.getElementById('student-nisn');
+        const studentKelas = document.getElementById('student-kelas');
+        const studentDob = document.getElementById('student-dob');
+        const studentNilai = document.getElementById('student-nilai');
+        const graduationStatus = document.getElementById('graduation-status');
+        const successNote = document.getElementById('success-note');
+        const backBtn = document.getElementById('back-btn');
+        const resultBox = document.getElementById('result-box');
+        
+        // Event Listeners
+        loginBtn.addEventListener('click', () => {
+            loginModal.classList.remove('hidden');
+        });
+        
+        closeLogin.addEventListener('click', () => {
+            loginModal.classList.add('hidden');
+        });
+        
+        loginForm.addEventListener('submit', (e) => {
+            e.preventDefault();
+            
+            const passwordValue = document.getElementById('password').value.trim();
+            const student = students.find(s => s.password === passwordValue);
+            
+            if (student) {
+                showResult(student);
+            } else {
+                alert('Data tidak ditemukan. Silakan periksa kembali password Ananda.');
+            }
+
+            loginModal.classList.add('hidden');
+            landingPage.classList.add('hidden');
+        });
+        
+        // nisnForm.addEventListener('submit', (e) => {
+        //     e.preventDefault();
+        //     const nisnValue = document.getElementById('nisn').value.trim();
+        //     const student = students.find(s => s.nisn === nisnValue);
+            
+        //     if (student) {
+        //         showResult(student);
+        //     } else {
+        //         alert('NISN tidak ditemukan. Silakan periksa kembali NISN Anda.');
+        //     }
+        // });
+        
+        backBtn.addEventListener('click', () => {
+            resultPage.classList.add('hidden');
+            landingPage.classList.remove('hidden');
+        });
+        
+        // Functions
+        function showResult(student) {
+            loginModal.classList.add('hidden');
+            resultPage.classList.remove('hidden');
+            
+            studentName.textContent = student.name;
+            studentNisn.textContent = student.nisn;
+            studentKelas.textContent = student.kelas;
+            studentDob.textContent = student.dob;
+            
+            if (student.status === "LULUS") {
+                graduationStatus.textContent = "LULUS";
+                graduationStatus.className = "text-3xl font-bold py-3 px-6 rounded-lg inline-block bg-green-100 text-green-700";
+                successNote.classList.remove('hidden');
+                resultBox.classList.add('border-green-500');
+                resultBox.classList.remove('border-red-500');
+                studentNilai.textContent = student.nilai;
+                studentNilai.className = "text-3xl font-bold py-3 px-6 rounded-lg inline-block bg-green-100 text-green-700";
+                successNote.classList.remove('hidden');
+                resultBox.classList.add('border-green-500');
+                resultBox.classList.remove('border-red-500');
+                
+                // Add confetti effect for success
+                createConfetti();
+            } else {
+                graduationStatus.textContent = "TIDAK LULUS";
+                graduationStatus.className = "text-3xl font-bold py-3 px-6 rounded-lg inline-block bg-red-100 text-red-700";
+                successNote.classList.add('hidden');
+                resultBox.classList.add('border-red-500');
+                resultBox.classList.remove('border-green-500');
+                studentNilai.textContent = student.nilai;
+                studentNilai.className = "text-3xl font-bold py-3 px-6 rounded-lg inline-block bg-red-100 text-red-700";
+                successNote.classList.add('hidden');
+                resultBox.classList.add('border-red-500');
+                resultBox.classList.remove('border-green-500');
+            }
+        }
+        
+        // Simple confetti effect
+        function createConfetti() {
+            const confettiContainer = document.createElement('div');
+            confettiContainer.style.position = 'fixed';
+            confettiContainer.style.top = '0';
+            confettiContainer.style.left = '0';
+            confettiContainer.style.width = '100%';
+            confettiContainer.style.height = '100%';
+            confettiContainer.style.pointerEvents = 'none';
+            confettiContainer.style.zIndex = '1000';
+            document.body.appendChild(confettiContainer);
+            
+            const colors = ['#f0a203', '#3c39e6', '#4CAF50', '#2196F3'];
+            
+            for (let i = 0; i < 100; i++) {
+                const confetti = document.createElement('div');
+                confetti.style.position = 'absolute';
+                confetti.style.width = Math.random() * 10 + 5 + 'px';
+                confetti.style.height = Math.random() * 10 + 5 + 'px';
+                confetti.style.backgroundColor = colors[Math.floor(Math.random() * colors.length)];
+                confetti.style.left = Math.random() * 100 + 'vw';
+                confetti.style.top = -20 + 'px';
+                confetti.style.borderRadius = Math.random() > 0.5 ? '50%' : '0';
+                confetti.style.opacity = Math.random() + 0.5;
+                
+                confettiContainer.appendChild(confetti);
+                
+                const animationDuration = Math.random() * 3 + 2;
+                const xMovement = Math.random() * 15 - 7.5;
+                
+                confetti.animate([
+                    { transform: 'translateY(0) rotate(0deg)', opacity: 1 },
+                    { transform: `translateY(100vh) translateX(${xMovement}vw) rotate(${Math.random() * 360}deg)`, opacity: 0 }
+                ], {
+                    duration: animationDuration * 1000,
+                    easing: 'cubic-bezier(0.37, 0, 0.63, 1)'
+                });
+            }
+            
+            setTimeout(() => {
+                confettiContainer.remove();
+            }, 5000);
+        }
+        
+        // Close modal when clicking outside
+        window.addEventListener('click', (e) => {
+            if (e.target === loginModal) {
+                loginModal.classList.add('hidden');
+            }
+        });
+    </script>
+<script>(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'947730964469fe8a',t:'MTc0ODUzNDI3MC4wMDAwMDA='};var a=document.createElement('script');a.nonce='';a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
+</html>
